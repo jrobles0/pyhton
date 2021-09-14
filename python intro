@@ -1,0 +1,68 @@
+PYTHON3 INTERPRETER IN LINUX
+
+    - which python3             /usr/bin/python3
+
+    - ctrl + l                  to clear python interpreter
+
+
+
+INTRODUCING INTS
+
+    - An int by itself          5
+
+    - Addition                  5 + 5
+
+    - Subtraction               10 - 5
+
+    - Multiplication            5 * 25
+
+    - Division                  125 / 5
+
+    - Modulo                    25 % 5 = 0
+
+
+INTRODUCING STRINGS
+
+    - A str by itself           'hello'
+
+    - Another str by itself     'world'
+
+    - Concatenation             'hello' + 'world'
+
+    - Add the space             'hello' + ' ' + 'world'
+
+    - A longer str              'Thaddeus is the best Python Instructor'
+
+    - String multipliction      'Thaddeus is the best Python Instructor' * 10
+
+
+
+INTRODUCING VARIABLES
+
+    - Assignment operator       =
+
+    - str variable              name = 'Thaddeus'         
+
+    - Variable concatenation    name + ' is the best Python Instructor'
+
+    - Another str variable      best_string = ' is the best Python Instructor' 
+
+    - Variable concatenation    name + ' ' + best_string
+
+
+
+VIM
+
+    - Touch a python file       touch file.py
+
+    - Open file with VIM        vi file.py
+
+    - Insert mode in VIM        i
+
+    - Add your text             'hello world'
+
+    - Exit insert mode          esc
+
+    - Save your changes         :w
+
+    - Quit VIM                  :q

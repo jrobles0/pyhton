@@ -1,0 +1,23 @@
+#Q1. Favorite Snack
+#Declare a variable called favorite_snack and set its value to be your favorite snack.
+#Print out the string "My favorite snack is <YOUR_SNACK>;" using the variable favorite_snack that you created.
+
+favorite_snack = "Chips"
+print("My favorite snack is " + favorite_snack + ";")
+
+#Q2. Eating Chips
+#Define the variable a with the value of the string "I could eat".
+#Define the variable b and assign it the integer value 100.
+#Define the variable c and assign it with the value of a string with your favorite snack.
+#Concatenate a, b, and c together and print the results.
+
+a = "I could eat"
+b = 100
+c = "Chips"
+print(a + " " + str(b) + " " + c)
+
+#Q3. Lots of Snacks
+#Print out the string "My favorite snack is <YOUR_SNACK>" 77 times.
+
+favorite_snack = "chips"
+print( ("My favorite snack is " + favorite_snack + ";") * 77 )

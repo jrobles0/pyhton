@@ -1,0 +1,39 @@
+#Q1. Grocery List
+#Print 5 things you need from the grocery store, each item should be output on its own line.
+
+print("Milk")
+print("Eggs")
+print("Bread")
+print("Bananas")
+print("Oatmeal")
+
+Q2. Grocery Receipt
+Your groceries ring up as 5.63, 13.40, 3.99, 4.57, and 2.47, respectively. Use the 5 items you printed in Q1 and declare variables named after each item. Assign each item with a price listed above.
+Use Python as a calculator to add your variables together and print out the total cost of all the items.
+
+milk = 5.63
+eggs = 13.4
+bread = 3.99
+bananas = 4.57
+oatmeal = 2.47 
+print(milk + eggs + bread + bananas + oatmeal)
+
+Q3. Buy Lots
+Pick your favorite snack from the 5 things you listed in Q1 and save it as a string in a variable called favorite_snack. Use the * operator to print 123 copies of it.
+Use the corresponding variable you declared in Q2 that contains the price for your favorite snack and the * operator to calculate the final price for those 123 snacks and print the total cost.
+
+favorite_snack = "potato chips"
+chips = 5.37
+print(favorite_snack * 123)
+print(chips * 123)
+
+Q4. Formatting
+Replicate the code from the first part of Q3 but modified to separate each entry with a comma and a space. (Don't worry about having a trailing comma and space at the end). You might need to use some additional parens here.
+
+favorite_snack = "potato chips"
+print((favorite_snack + ', ') * 123)
+
+Q5. BONUS
+Can you figure out how to get the same output as Q1 above with only 1 print statement? If so, can you do it all on one line?
+
+print("Milk\nEggs\nBread\nBananas\nOatmeal")
